@@ -10,7 +10,6 @@
 \LoadClass{article}
 
 \RequirePackage{geometry}
-\RequirePackage{fontspec}
 \RequirePackage{titlesec}
 \RequirePackage{graphicx}
 \RequirePackage{xcolor}
@@ -23,10 +22,6 @@
 \pagestyle{empty}
 
 \geometry{margin=2.5cm}
-
-\setsansfont{CMU Sans Serif}
-\setmainfont{CMU Serif}
-\setmonofont{CMU Typewriter Text}
 
 % Colors
 \newcommand{\theme}[1]{\def\themecolor{#1}}
