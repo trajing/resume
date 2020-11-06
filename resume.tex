@@ -1,0 +1,92 @@
+% !TEX TS-program = lualatex
+% !TEX encoding = UTF-8 Unicode
+
+\documentclass[letterpaper]{resume}
+
+\usepackage[english]{babel}
+\usepackage[babel]{microtype}
+
+% Make all itemized lists dashed
+\setlist[itemize]{label=\textbf\textendash}
+
+\hypersetup{hidelinks}
+\urlstyle{same}
+
+\name{Carmine Taylor Lastnam}
+\information{
+    Website: \website{trajing.com} \\
+    Github: \github{trajing} \\
+    Twitter: \twitter{LabCoatPerson}
+}
+\photo{ref-ava.png}
+
+\begin{document}
+    \makephotoheading
+    \vspace{-1em}
+
+    \section{Education}
+    \begin{blocklist}
+        \entry{Nowhere University}
+            {83°50'37''S 65°43'30''E, AQ}
+            {Bachelor of Science in Computer Science}
+            {2020--2024}
+            \begin{itemize}
+                \item CS102 Data Structures: Improved programming skills by
+                    implementing algorithms for operations on several
+                    fundamental data structures, including stacks, queues,
+                    linked lists, and array lists.
+            \end{itemize}
+        \entry{Illinois Mathematics \& Science Academy}
+            {Aurora, IL}
+            {High School}
+            {2017--2020}
+            \begin{itemize}
+                \item SCI505 Computational Science: Developed object-oriented
+                    software architecture skills by programming multiple
+                    scientific computing simulations in C\sharp.
+            \end{itemize}
+    \end{blocklist}
+
+    \section{Experience}
+    \begin{blocklist}
+        \entry{Titan Robotics (FIRST Robotics Competition Team \#2022)}
+            {Aurora, IL}
+            {Programming Specialist}
+            {2017--2020}
+            \begin{itemize}
+                \item Designed driver control system and robot subsystem layout
+                    in cooperation with the programming head.
+                \item Programmed robots using the Java programming
+                    language to complete assigned tasks and goals for
+                    competition.
+                \item Improved troubleshooting skills by assisting other team
+                    members with debugging their code before, during, and after
+                    competitions.
+                \item Developed coordination and leadership skills by assisting
+                    the programming head with code reviews and team organization
+                    among a group of six other programmers.
+            \end{itemize}
+    \end{blocklist}
+
+    \section{Awards}
+    \begin{blocklist}
+        \entry{Midwest Regional Champions}
+            {March 2020}
+            {Programming Specialist}
+            {Titan Robotics (FRC Team \#2022)}
+    \end{blocklist}
+    
+    \section{Skills}
+    \subsection{Programming Languages}
+    \begin{itemize}
+        \item Mentored other students in Ruby.
+        \item Mentored other students in Python.
+        \item Implemented a command-line
+            Blaseball box score generator in
+            Haskell.
+        \item Wrote a scientific computing simulation in Rust.
+        \item Participated in the FIRST Robotics Competition for 
+            3 years as a programmer using Java.
+        \item Wrote scientific computing simulations in C\sharp.
+    \end{itemize}
+\end{document}
