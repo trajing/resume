@@ -1,10 +1,10 @@
 # `trajingresume`
 
-A basic LaTeX résumé class more-or-less based off of Doruk Çetin's [Simple-CV]
-(https://github.com/dcetin/Simple-CV/) package. The design is basically the
-same, some portions of the class are from his package, some of them I rewrote
-because I didn't understand enough of what was going on to transfer from the
-package to a class. Here for your convenience.
+A basic LaTeX résumé class more-or-less based off of Doruk Çetin's
+[Simple-CV](https://github.com/dcetin/Simple-CV/) package. The design is
+basically the same, some portions of the class are from his package, some of
+them I rewrote because I didn't understand enough of what was going on to
+transfer from the package to a class. Here for your usage and convenience.
 
 ## Goals:
 Here's what I'm keeping in mind when writing this, and what I'm looking for if
@@ -31,4 +31,4 @@ guaranteed to stay 100% up-to-date with the current state of the code, but they
 should give you a rough idea of what a résumé using this class might look like
 (up to date as of 2020-11-06).
 
-![](resume.png)
+![Sample Résumé](resume.png)
